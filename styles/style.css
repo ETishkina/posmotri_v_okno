@@ -65,7 +65,7 @@ ol {
 .content__list {
   position: relative;
   overflow: auto;
-  height: 294px;
+  height: 303px;
 }
 
 .content__details {
@@ -104,9 +104,6 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-}
-
-.content__video-card-thumbnail {
   object-fit: cover;
 }
 
@@ -119,7 +116,7 @@ ol {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif ;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -139,7 +136,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
@@ -162,11 +159,8 @@ ol {
   border: none;
 }
 
-input[type="text"] {
-  appearance: none;
-}
-
 .search-form__textfield {
+  appearance: none;
   border-style: none;
   font-family: inherit; 
   color: #fff;
@@ -175,7 +169,7 @@ input[type="text"] {
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
   width: 225px;
-  height: 29px;
+  min-height: 29px;
 }
 
 .search-form__textfield:active {
@@ -239,6 +233,8 @@ input[type="text"] {
   line-height: 21.6px;
   text-align: center;
   cursor: pointer;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .button:active{
@@ -260,7 +256,6 @@ input[type="text"] {
 
 .search-form__submit-button{
   width: 194px;
-  height: 34px;
   align-self: end;;
 }
 
@@ -272,7 +267,8 @@ input[type="text"] {
   text-decoration: underline;
 }
 
-.content__card-link_current{
+.content__card-link_current,
+.content__card-link:active {
   background-color: #545050;
 }
 
